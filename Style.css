@@ -1,0 +1,53 @@
+body {background:rgba(255, 238, 238, 0.5);
+}
+img {width:100px;height:100px;
+}
+div[id^=controls] , input[type=number]
+{
+padding:5px 5px 5px 25px;
+margin:10px 15px 15px 25px;
+font:900 12px Comic Sans MS;
+opacity:0.9;
+background:#fed;    
+border:10px solid #ddd;    
+border-radius: 10px;
+box-shadow:10px 10px 2px #c0c0c0;
+}
+button
+{
+padding:5px 5px 5px 5px;
+margin:10px 15px 15px 15px;
+width:120px;
+text-align: center;
+background:#ddd; 
+font:900 14px Comic Sans MS;
+opacity:0.9;
+border:1px solid #c0c0c0;    
+border-radius: 10px;
+box-shadow:10px 10px 2px #c0c0c0;
+}
+ul
+{
+list-style:none;    
+}
+.centered
+{
+ text-align:center;   
+}
+.angular
+{
+padding:5px 5px 5px 5px;
+margin:25px 15px 15px 25px;
+width:350px;
+text-align:center;
+background:#fee; 
+font:900 14px Comic Sans MS;
+opacity:0.9;
+border:1px solid #c0c0c0;    
+border-radius: 10px;
+box-shadow:10px 10px 2px #faf;
+}
+.title {
+    width: 90%;
+    border: solid 1px #fea;
+}
