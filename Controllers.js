@@ -12,6 +12,7 @@ oOrchidsApp.controller('OrchidsCtl', ['$scope', '$http', '$log', function ($scop
         iCurrentPage = iCurrentPage + direction;
         iCurrentPage = iCurrentPage >= 0 ? iCurrentPage : 0;
         
+        //  TODO: Change this URL to point it to the OData RESTful service that you need:
         var sURL = "http://carmelwebapi.somee.com/WebAPI/OrchidsWebAPI/" +
             "?$skip=" +
             iCurrentPage * $scope.pageSize
@@ -22,7 +23,7 @@ oOrchidsApp.controller('OrchidsCtl', ['$scope', '$http', '$log', function ($scop
         $http.get(sURL).success(function (response) {
 
             $scope.OrchidsList = response;
-            $log.info("OK");
+            $log.info("Data retrieval was successful!!!");
 
         },
 
